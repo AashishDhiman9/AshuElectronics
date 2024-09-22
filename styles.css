@@ -36,7 +36,11 @@ nav a {
     text-align: center;
 }
 .container {
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
     padding: 20px;
+    box-sizing: border-box; /* Include padding and border in width */
+}
 }
 .services, .products, .about, .contact {
     margin-bottom: 40px;
