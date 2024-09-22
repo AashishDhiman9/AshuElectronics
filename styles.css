@@ -51,13 +51,14 @@ nav a {
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center; /* Center the items */
 }
 
 h2 {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 20px;
+    width: 100%; /* Ensure the heading takes full width */
 }
 
 .service-item, .product-item {
