@@ -160,8 +160,4 @@ footer {
     font-size: 0.9rem; /* Smaller font size */
     color: #2c3e50;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
