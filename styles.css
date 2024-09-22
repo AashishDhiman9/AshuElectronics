@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box; /* Apply box-sizing globally */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -45,11 +49,12 @@ nav a {
     max-width: 1200px; /* Set a maximum width */
     margin: 0 auto; /* Center the container */
     padding: 20px;
-    box-sizing: border-box; /* Include padding and border in width */
+    width: 100%; /* Ensure the container uses full width */
 }
 
 .services, .products, .about, .contact {
-    margin-bottom: 40px;
+    margin: 0; /* Remove bottom margin */
+    padding: 0; /* Remove padding */
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the items */
@@ -58,7 +63,7 @@ nav a {
 h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 20px;
+    margin: 20px 0; /* Keep vertical spacing */
     width: 100%; /* Ensure the heading takes full width */
 }
 
