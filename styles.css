@@ -1,3 +1,13 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; /* Slightly larger font */
+    }
+    nav a {
+        font-size: 14px; /* Make navigation links larger */
+    }
+}
+
+
 .contact-info a {
     text-decoration: none;
     color: #2c3e50;
