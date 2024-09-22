@@ -23,7 +23,7 @@ nav a {
     font-weight: bold;
 }
 .banner {
-    background-image: url('https://github.com/AashishDhiman9/AshuElectronics/blob/master/banner.jpg');
+    background-image: url('https://raw.githubusercontent.com/AashishDhiman9/AshuElectronics/refs/heads/master/banner.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
